@@ -1,0 +1,80 @@
+body{
+    background-image:url(https://img.freepik.com/free-vector/modern-banner-with-abstract-low-poly-design_1048-14340.jpg?size=626&ext=jpg&ga=GA1.1.1568091727.1696841976&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .Parent-con {
+    justify-content: center;
+    padding: 40px;
+    padding-top: 10px;
+  }
+  .Heading{
+    text-transform: uppercase;
+    line-height: 30px;
+    text-shadow: 2px 1px 0px gray;
+    color: rgb(30, 83, 122);
+  }
+  
+label {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 2.5%;
+    color: rgb(30, 83, 122);
+  }
+
+  
+input {
+    font-size: 22px;
+    margin: 2.5%;
+}
+
+
+  button {
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 5px;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: skyblue;
+  }
+  .Data_con{
+    background-color: rgb(143, 155, 156);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly
+  }
+  .elements{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #336e6e;
+
+  }
+  .Warning{
+    color: rgb(255, 15, 35);
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px #fff;
+    line-height: 30px;
+  }
+
+  @media only screen and (max-width:500px){
+
+    .elements{
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #336e6e;
+    
+      }
+    
+  }
